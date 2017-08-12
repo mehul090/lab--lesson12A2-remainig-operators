@@ -212,6 +212,9 @@ namespace COMP123_S2017_Lesson12A2
                     this._calculate(operand, operatorButton.Text);
                     break;
             }
+            
+            
+
         }
 
         /// <summary>
