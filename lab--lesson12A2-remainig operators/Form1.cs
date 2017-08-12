@@ -282,6 +282,11 @@ namespace COMP123_S2017_Lesson12A2
                         result = OperandList[0] * OperandList[1];
 
                         break;
+                    case "÷":
+
+                        result = OperandList[0] / OperandList[1];
+
+                        break;
 
 
 
