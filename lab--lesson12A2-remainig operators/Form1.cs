@@ -197,7 +197,7 @@ namespace COMP123_S2017_Lesson12A2
             {
                 operand = this._covertResult(ResultTextBox.Text);
             }
-
+            
 
             switch (operatorButton.Text)
             {
@@ -212,8 +212,10 @@ namespace COMP123_S2017_Lesson12A2
                     this._calculate(operand, operatorButton.Text);
                     break;
             }
-            
-            
+            //code for backspace(sort of)
+            ResultTextBox.Text = ResultTextBox.Text.Remove(ResultTextBox.Text.Length - 1, 1);
+
+
 
         }
 
